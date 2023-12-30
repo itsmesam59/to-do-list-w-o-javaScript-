@@ -9,10 +9,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(https://avante.biz/wp-content/uploads/White-Wallpaper-Hd/White-Wallpaper-Hd-034.jpg);
 }
 
 h1 {
     margin: 1em;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(69, 104, 230)
+
 }
 .container {
     display: flex;
@@ -25,8 +29,8 @@ h1 {
     box-shadow: 3px 3px 10px grey;
     border-radius: 30px;
     border: none;
-    border-top: 5px solid aqua;
-    border-bottom: 5px solid aqua;
+    border-top: 5px solid rgb(69, 104, 230);
+    border-bottom: 5px solid rgb(69, 104, 230);
 }
 
 .todo {
@@ -52,6 +56,7 @@ h1 {
     flex-grow: 1;
     opacity: 0.7;
     background: transparent;
+    /*box-shadow: 3px 3px 10px grey;*/
 }
 
 .todo-checkbox {
@@ -60,7 +65,7 @@ h1 {
 }
 
 ::placeholder {
-    opacity: 0.4;
+    opacity: 0.5;
     font-size: 25px;
 }
 
@@ -69,4 +74,42 @@ h1 {
     background: #eeeeee;
     text-decoration: line-through;
     order: 1;
+}
+
+/*   RESPONSIVE   */
+
+@media(max-width: 320px){
+
+    * {
+        box-sizing: border-box;
+    }
+
+    h1{
+        width: 100%;
+        margin-left: 350px;
+    }
+
+    .container{
+        padding: 0;
+        margin: 0;
+        width: 430px;
+        margin-left: 140px;
+    }
+
+    .todo {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .todo-text {
+        padding: 0;
+        margin: 0;
+        font-size: 25px;
+    }
+
+    .todo-checkbox {
+        padding: 0;
+        margin: 0;
+    }
 }
