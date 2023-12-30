@@ -14,7 +14,7 @@ body {
 
 h1 {
     margin: 1em;
-    font-family: 'Quicksand', sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(69, 104, 230)
 
 }
@@ -74,6 +74,14 @@ h1 {
     background: #eeeeee;
     text-decoration: line-through;
     order: 1;
+}
+
+.footer {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
 }
 
 /*   RESPONSIVE   */
