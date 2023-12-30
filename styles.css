@@ -14,8 +14,8 @@ body {
 
 h1 {
     margin: 1em;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(69, 104, 230);
+    font-family:"sofia", sans-serif;
+    color: black;
     font-size: 2em;
     font-weight: bold;
 
@@ -80,7 +80,7 @@ h1 {
     margin-top: 12px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:right;
     width: 100%;
 }
 
