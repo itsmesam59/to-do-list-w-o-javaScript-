@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 1em;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+    width: 50%;
+    height: 80vh;
+    box-shadow: 3px 3px 10px grey;
+    border-radius: 30px;
+    border: none;
+    border-top: 5px solid aqua;
+    border-bottom: 5px solid aqua;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 1em;
+    height: 50px;
+    background: transparent;
+}
+
+.todo-text {
+    border-radius: 30px;
+    width: 500px;
+    border: none;
+    outline: none;
+    font-size: 2em;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    flex-grow: 1;
+    box-shadow: 3px 3px 10px grey;
+    opacity: 0.9;
+}
+
+.todo-checkbox {
+    width: 100px;
+    height: 100%;
+    border-radius: 50px;
+}
+
+::placeholder {
+    opacity: 0.3;
+    font-size: 25px;
+}
